@@ -1,0 +1,111 @@
+body {
+  font-family: Roboto;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+39,73b1e7+39,539fe1+59,0a77d5+90,0a77d5+90,0a77d5+90,0a77d5+100,87bcea+100 */
+  background: rgb(208, 228, 247); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(208, 228, 247, 1) 0%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(83, 159, 225, 1) 59%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 100%,
+    rgba(135, 188, 234, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(208, 228, 247, 1) 0%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(83, 159, 225, 1) 59%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 100%,
+    rgba(135, 188, 234, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(208, 228, 247, 1) 0%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(115, 177, 231, 1) 39%,
+    rgba(83, 159, 225, 1) 59%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 90%,
+    rgba(10, 119, 213, 1) 100%,
+    rgba(135, 188, 234, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 ); /* IE6-9 */
+
+  /* background-repeat: no-repeat; */
+}
+#container {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+}
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 15px 13px;
+  box-sizing: border-box;
+  margin: 0;
+  color: #2980b9;
+  border: 3px solid white;
+}
+input:focus {
+  background: white;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+h1 {
+  background-color: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  background-color: white;
+  min-height: 40px;
+  line-height: 40px;
+  color: #222;
+}
+li:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+span {
+  background-color: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  /* margin-left: 10px; */
+  color: white;
+  width: 0px;
+  text-align: center;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+.th {
+  color: grey;
+  text-decoration: line-through;
+}
+.fa-plus {
+  float: right;
+}
